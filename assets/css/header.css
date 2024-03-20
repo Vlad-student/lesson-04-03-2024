@@ -1,0 +1,35 @@
+.main-header{
+height: 300px;
+padding-top: 100px;
+background-color:rgb(141, 201, 213); 
+background-image: url(./../images/Light_background_grass.png),linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(192,244,255,1) 50%, rgba(129,199,255,1) 100%);
+background-repeat: repeat-x, no-repeat;
+background-position: 0 120px;
+}
+main{
+    margin-top: -150px;
+}
+
+.main-wrapper{
+    min-width: 720px;
+width: 45%;
+margin: auto;
+}
+
+.main-menu{
+list-style: none;
+margin: o;
+}
+
+.main-menu-item{
+display: inline-block;
+margin: 0 1.2em;
+}
+.main-menu-item>a{
+color:black;
+text-transform: uppercase;
+font-weight: bolder;
+}
+.main-menu-item>a:hover{
+    text-decoration: underline;
+}
