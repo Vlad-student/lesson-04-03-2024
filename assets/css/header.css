@@ -24,6 +24,7 @@ margin: o;
 .main-menu-item{
 display: inline-block;
 margin: 0 1.2em;
+position: relative;
 }
 .main-menu-item>a{
 color:black;
@@ -32,4 +33,30 @@ font-weight: bolder;
 }
 .main-menu-item>a:hover{
     text-decoration: underline;
+}
+.main-menu-item:hover>.submenu{
+    display: block;
+}
+.submenu{
+    display: none;
+    width: 210%;
+    position: absolute;
+    left: -50%;
+list-style: none;
+padding: 7px;
+background-color: white;
+min-width: 150px;
+max-width: 200px;
+}
+.submenu-item{}
+
+.submenu-link{
+display: block;
+padding:5px 9px;
+text-transform: capitalize;
+color:black;
+}
+.submenu-link:hover{
+    background-color:rgb(232, 233, 231);
+    color:blue;
 }

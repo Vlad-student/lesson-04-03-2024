@@ -5,6 +5,7 @@ body{
     margin: o;
     font-family: rubik, helvetica, arial, sans-serif;
     font-size: 14px;
+    background-image: url(./assets/images/Site-background-light.webp);
 }
 a{
     color: rgb(0, 84, 168);
