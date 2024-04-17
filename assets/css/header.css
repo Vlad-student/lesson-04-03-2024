@@ -1,10 +1,45 @@
 .main-header{
 height: 300px;
-padding-top: 100px;
+padding-top: 30px;
 background-color:rgb(141, 201, 213); 
 background-image: url(./../images/Light_background_deepslate_transition.png) ,url(./../images/Light_background_grass.png),linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(192,244,255,1) 50%, rgba(129,199,255,1) 100%);
 background-repeat: repeat-x, repeat-x, no-repeat;
 background-position:bottom left, 0 120px;
+}
+
+.link-wrapper{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.sign-in,
+.register{
+    display: inline-block;
+    height: 34px;
+    padding:7px 18px ;
+    
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.sign-in{
+    border:1px solid black ;
+}
+.register{
+    border:1px solid rgb(17, 99, 206) ;
+    background-color:rgb(17, 99, 206)  ;
+    color: white;
+    position: relative;
+    padding-left: 36px;
+}
+.register::before{
+    content: '';
+    display: inline-block;
+   width: 23px;
+   height: 23px;
+background-image:url(./../icons/account-circle-outline.svg);
+position: absolute;
+left: 10px;
+
 }
 main{
     margin-top: -150px;
