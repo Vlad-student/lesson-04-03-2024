@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+a{
+    color: inherit;
+}
+.yellow{
+    color: yellow;
+}
+.out-wrapper{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+.wrapper{
+    min-width: 720px;
+width: 45%;
+margin: auto;
+background-color:white;
+}
+.header{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flex-container{
+    display: flex;
+}
+.register,
+.social{
+    width: 50%;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+}
