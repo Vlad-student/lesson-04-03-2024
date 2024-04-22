@@ -74,6 +74,24 @@ color: #aaa;
   .register>input[type="submit"]:hover{
 background-color:rgb(82, 26, 82);
   }
+
+  .register>label>input[type="checkbox"]{
+    height: 0;
+    width: 0;
+    margin-left: 20px;
+  }
+.register>label>input[type="checkbox"]::before{
+    content:'';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    transform: translateX(-10px) translateY(-10px);
+}
+  .register>label>input[type="checkbox"]:checked::before{
+    content:'\2713';
+    line-height: 0.7em;
+  }
 .social>ul{
 list-style: none;
 padding-left: 0;
