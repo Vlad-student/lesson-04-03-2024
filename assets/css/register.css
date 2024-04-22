@@ -107,6 +107,7 @@ padding-left: 0;
     background-color: black;
     padding: 10px;
     margin-bottom: 5px;
+    position: relative;
 }
 .fb{
 background-color: rgb(22, 134, 225) ;
@@ -122,4 +123,28 @@ background-color: rgb(22, 134, 225) ;
 }
 .btn>i{
     background-color: white;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius:3px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    line-height: 25px;
+}
+
+.h2{
+    font-weight: 1.1em;
+}
+.fb>i{
+    color: (22, 134, 225);
+}
+.google>i{
+    color:rgb(90, 162, 222); 
+}
+.twich>i{
+    color:rgb(167, 14, 190) ;
+}
+.apple>i{
+    color: rgb(6, 9, 12) ;
 }
